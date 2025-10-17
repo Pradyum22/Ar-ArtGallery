@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>AR Art Gallery - Single View</title>
     <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
-    <script src="./assets/mindar/mindar-image.prod.js"></script>
-    <script src="./assets/mindar/mindar-image-aframe.prod.js"></script>
+    <script src="./Assets/mindar/mindar-image.prod.js"></script>
+    <script src="./Assets/mindar/mindar-image-aframe.prod.js"></script>
     <style>
       html, body {
         margin: 0;
@@ -26,7 +26,7 @@
 
   <body>
     <a-scene
-      mindar-image="imageTargetSrc: ./assets/targets.mind; autoStart: true; filterMinCF: 0.01; filterBeta: 1000;"
+      mindar-image="imageTargetSrc: ./Assets/targets.mind; autoStart: true; filterMinCF: 0.01; filterBeta: 1000;"
       embedded
       color-space="sRGB"
       renderer="colorManagement: true, physicallyCorrectLights"
@@ -37,7 +37,7 @@
 
       <a-entity mindar-image-target="targetIndex: 0">
 
-        <a-image src="./assets/art1.png" width="3" height="3" position="0 0.5 0"></a-image>
+        <a-image src="./Assets/art1.png" width="3" height="3" position="0 0.5 0"></a-image>
         
         <a-entity position="0 -1.5 0">
             <a-plane color="#000000" opacity="0.7" width="4.2" height="0.6" position="0 0 -0.01"></a-plane>
